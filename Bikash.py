@@ -33,24 +33,6 @@ async def is_admins(chat_id: int):
             chat_id, filter="administrators"
         )
     ]
-        
-@bot.on_message(filters.command(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#bikash", "#aditya"]) & filters.group & ~filters.edited)
-async def start(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"{BOT_IMAGE}",
-        caption=f"""ʜʏ  ɪ'ᴀᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴄʜᴀᴛ ʙᴏᴛ.\n\n ғᴇᴏᴍ ʏᴏᴜʀ ʜᴇᴀʀᴛ \n\n ɪ'ᴍ ᴀ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ \n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/+MQn7rXz1LeViZmJl)  🥀\n\n[ᴜᴘᴅᴀᴛᴇs](https://t.me/+MQn7rXz1LeViZmJl) \n\n /chatbot - [on|off]""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        " ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ", url=f"https://t.me/+PtOLQT04ocMzOTJl")
-                ]
-            ]
-        ),
-    )
-
-
-
 @bot.on_message(
     filters.command("chatbot off", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
