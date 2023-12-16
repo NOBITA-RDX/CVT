@@ -9,7 +9,7 @@ Click Below Picture To Open Rdx Chat Bot Owner Id...
 
 ### ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/NOBITA-RDX/CHATVOT)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/NOBITA-RDX/CVT)
 
 
 ## ᴅᴇᴘʟᴏʏ
