@@ -33,12 +33,6 @@ async def is_admins(chat_id: int):
             chat_id, filter="administrators"
         )
     ]
-
-
-@bot.on_message(filters.command("start") & filters.private & ~filters.edited)
-async def start_(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"{BOT_IMAGE}",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━ ʜʏ  ɪ'ᴀᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴄʜᴀᴛ ʙᴏᴛ.\n\n ғʀᴏᴍ ʏᴏᴜʀ ʜᴇᴀʀᴛ \n\n ɪ'ᴍ ᴀ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ \n\n /ᴄʜᴀᴛʙᴏᴛ - [ᴏɴ|ᴏғғ] ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴜsᴇ ᴏɴʟʏ ᴀɴʏ ɢʀᴏᴜᴘ
 
 ┏━━━━━━━━━━━━━━━━━┓
